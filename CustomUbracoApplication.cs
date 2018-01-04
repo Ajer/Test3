@@ -11,7 +11,7 @@ namespace TestUmbraco
 {
     public class CustomUbracoApplication:UmbracoApplication
     {
-        protected override IBootManager GetBootManager()
+        protected override IBootManager GetBootManager1()
         {
             return new CustomWebBootManager(this);
         }
